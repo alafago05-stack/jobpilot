@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    ports: ["8501:8501"]
+    env_file: .env
+  # Optional 100% local mode:  docker compose --profile local up
+  ollama:
+    image: ollama/ollama
+    profiles: ["local"]
+    volumes: ["ollama:/root/.ollama"]
+volumes:
+  ollama:

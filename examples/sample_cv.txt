@@ -1,0 +1,7 @@
+Sara Benali
+sara.benali@example.com | +212 6 12 34 56 78 | linkedin.com/in/sarabenali
+
+Data Engineer, 3 years. Python, SQL, Airflow, dbt, AWS.
+- Built ETL pipelines processing 2M rows/day for an e-commerce client.
+- Reduced warehouse costs by 18% through partitioning.
+Education: BSc Computer Science, 2021
